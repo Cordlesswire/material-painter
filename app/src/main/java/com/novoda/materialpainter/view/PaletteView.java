@@ -30,6 +30,10 @@ public class PaletteView extends LinearLayout {
         super(context, attrs, defStyleAttr);
     }
 
+    public PaletteView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+    }
+
     @Override
     protected void onFinishInflate() {
         super.onFinishInflate();
